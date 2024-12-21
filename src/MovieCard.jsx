@@ -1,5 +1,5 @@
-
 import React from "react";
+import './MovieCard.css'
 
 function MovieCard({ movie, onPlaySong }) {
   return (
@@ -18,20 +18,9 @@ function MovieCard({ movie, onPlaySong }) {
       <p>
         <strong>Year:</strong> {movie.year}
       </p>
-      <button onClick={() => onPlaySong(movie)}>Play Song</button>
+      <button id="Play-song" onClick={() => onPlaySong(movie)}>Play Song</button>
     </div>
   );
 }
 
 export default MovieCard;
-
-
-
-
-
-
-
-
-
-
-
