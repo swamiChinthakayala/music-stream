@@ -18,6 +18,31 @@ body {
     /* display: flex;
     flex-wrap: wrap; */
   }
+  .navbar-options {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .navbar-options ul {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Space between items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-options ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-options ul li a:hover {
+    color: #ff9800; /* Change color on hover */
+    color: #222;
+  }
+  
   
   /* Search */
   .search-container {
@@ -40,6 +65,7 @@ body {
   
   .movie-card {
     background: #e88e27;
+    /* background: hsl(183, 98%, 49%); */
     padding: 1rem;
     border-radius: 8px;
     width: 200px;
@@ -95,7 +121,3 @@ body {
   button .btn:hover {
     transform: scale(1.2);
   }
-
-  
-  
-  
