@@ -2,7 +2,7 @@ const movies = [
     {
       title: "Devara",
       poster: "/images/devara.avif",
-      description: "action drama film about a coastal village",
+      description: "Action Drama film about a Coastal Village",
       year: "2024",
       songs: [
         {
@@ -18,7 +18,7 @@ const movies = [
     {
       title: "Thandel",
       poster: "/images/Thandel.avif",
-      description: "Batman faces his toughest challenge yet.",
+      description: "Action, Romance, and Thriller film",
       year: "2025",
       songs: [
         {
@@ -30,7 +30,7 @@ const movies = [
     {
       title: "Amaran",
       poster: "/images/amaran.jpg",
-      description: "Batman faces his toughest challenge yet.",
+      description: "Tamil-language Biographical war film",
       year: "2024",
       songs: [
         {
@@ -46,7 +46,7 @@ const movies = [
     {
       title: "Kalki",
       poster: "/images/kalki.jpg",
-      description: "Batman faces his toughest challenge yet.",
+      description: "Indian science fiction film that combines Hindu mythology",
       year: "2024",
       songs: [
         {
@@ -62,7 +62,7 @@ const movies = [
     {
       title: "Hanuman",
       poster: "/images/Hanuman.jpg",
-      description: "Batman faces his toughest challenge yet.",
+      description: " The powers of Hanuman and fights for Anjanadri.",
       year: "2024",
       songs: [
         {
@@ -78,7 +78,7 @@ const movies = [
     {
       title: "R R R",
       poster: "/images/RRR.jpg",
-      description: "Batman faces his toughest challenge yet.",
+      description: " Action-Adventure-Drama film about two Indian revolutionaries",
       year: "2022",
       songs: [
         {
@@ -95,7 +95,7 @@ const movies = [
     {
       title: "Manam",
       poster: "/images/Manam.jpg",
-      description: "Batman faces his toughest challenge yet.",
+      description: "Comedy-Drama film about reincarnation and family relationships",
       year: "2014",
       songs: [
         {
@@ -111,7 +111,7 @@ const movies = [
     {
       title: "AlaVaikuntapuramlo",
       poster: "/images/Ala viakunthapuramulo.jpg",
-      description: "Batman faces his toughest challenge yet.",
+      description: "Middle-class man who discovers",
       year: "2020",
       songs: [
         {
@@ -127,7 +127,7 @@ const movies = [
     {
       title: "Hi Nanna",
       poster: "/images/Hi Nanna.webp",
-      description: "Batman faces his toughest challenge y",
+      description: "romantic drama film about a single father and his daughter",
       year: "2020",
       songs: [
         {
@@ -143,7 +143,7 @@ const movies = [
     {
       title: "Guntur Karam",
       poster: "/images/Guntur-Karam.jpg",
-      description: "Batman faces his toughest challenge y",
+      description: "A man who seeks answers after his mother abandons him and remarries",
       year: "2023",
       songs: [
         {
@@ -159,7 +159,7 @@ const movies = [
     {
       title: "Salaar",
       poster: "/images/salaar.jpg",
-      description: "Batman faces his toughest challenge y",
+      description: " action thriller film two Childhood friends become Enemies",
       year: "2020",
       songs: [
         {
@@ -175,7 +175,7 @@ const movies = [
     {
       title: "Khushi",
       poster: "/images/Kushi-movie.avif",
-      description: "Batman faces his toughest challenge y",
+      description: "Comedy, drama, romance",
       year: "2020",
       songs: [
         {
@@ -188,9 +188,87 @@ const movies = [
         },
       ],
     },
-
+    
+    {
+      title: "Rangasthalam",
+      poster: "/images/Rangasthalam.jpg",
+      description: "a man who joins forces with his brother",
+      year: "2018",
+      songs: [
+        {
+          title: "Aa Gattunutaava",
+          url: "/songs/Aa Gattununtaava - SenSongsMp3.Co.mp3",
+        },
+        {
+          title: "Ranga Ranga Rangasthalaana",
+          url: "/songs/Ranga Ranga Rangasthalaana - SenSongs.Co.mp3",
+        },
+      ],
+    },
+    {
+      title: "Baahubali",
+      poster: "/images/Bahubali.avif",
+      description: "A child from the Mahishmati kingdom is raised by tribal people",
+      year: "2015",
+      songs: [
+        {
+          title: "Saahore Baahubali",
+          url: "/songs/[iSongs.info] 01 - Saahore Baahubali.mp3",
+        },
+        {
+          title: "Dandaalayyaa",
+          url: "/songs/[iSongs.info] 04 - Dandaalayyaa.mp3",
+        },
+      ],
+    },
+    {
+      title: "Baahubali2",
+      poster: "/images/Baahubali2.webp",
+      description: "action-drama film about the rivalry between siblings",
+      year: "2017",
+      songs: [
+        {
+          title: "Kannaa Nidurinchara",
+          url: "/songs/[iSongs.info] 03 - Kannaa Nidurinchara.mp3",
+        },
+        {
+          title: "Hamsa Naava",
+          url: "/songs/[iSongs.info] 02 - Hamsa Naava.mp3",
+        },
+      ],
+    },
+    {
+      title: "Jersey",
+      poster: "/images/Jersey.jpg",
+      description: "a former cricketer who returns to the sport in his mid-30s",
+      year: "2019",
+      songs: [
+        {
+          title: "Kannaa Nidurinchara",
+          url: "/songs/[iSongs.info] 03 - Kannaa Nidurinchara.mp3",
+        },
+        {
+          title: "Hamsa Naava",
+          url: "/songs/[iSongs.info] 02 - Hamsa Naava.mp3",
+        },
+      ],
+    },
+    {
+      title: "V",
+      poster: "/images/v.jpg",
+      description: "a celebrated police officer who is trying to stop a serial killer",
+      year: "2021",
+      songs: [
+        {
+          title: "Kannaa Nidurinchara",
+          url: "/songs/[iSongs.info] 03 - Kannaa Nidurinchara.mp3",
+        },
+        {
+          title: "Hamsa Naava",
+          url: "/songs/[iSongs.info] 02 - Hamsa Naava.mp3",
+        },
+      ],
+    },
   ];
   
   export default movies;
-  
-  
