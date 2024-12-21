@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import MovieCard from "./MovieCard";
@@ -69,9 +67,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
